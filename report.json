@@ -95,6 +95,54 @@
       "operation": "migrate",
       "exception": null,
       "licenseFailed": false
+    },
+    {
+      "initialSchemaVersion": null,
+      "targetSchemaVersion": "1",
+      "schemaName": "",
+      "migrations": [
+        {
+          "category": "Versioned",
+          "version": "1",
+          "description": "initial schema",
+          "type": "SQL",
+          "filepath": "/Users/devinlynch/Desktop/Repos/the-milk-problem/databases/milk/V1__initial_schema.sql",
+          "executionTime": 8
+        }
+      ],
+      "migrationsExecuted": 1,
+      "success": true,
+      "flywayVersion": "9.22.1",
+      "database": "milk_test",
+      "warnings": [],
+      "timestamp": "2023-09-13T14:58:25.153269",
+      "operation": "migrate",
+      "exception": null,
+      "licenseFailed": false
+    },
+    {
+      "initialSchemaVersion": null,
+      "targetSchemaVersion": "1",
+      "schemaName": "",
+      "migrations": [
+        {
+          "category": "Versioned",
+          "version": "1",
+          "description": "initial schema",
+          "type": "SQL",
+          "filepath": "/Users/devinlynch/Desktop/Repos/the-milk-problem/databases/milk/V1__initial_schema.sql",
+          "executionTime": 6
+        }
+      ],
+      "migrationsExecuted": 1,
+      "success": true,
+      "flywayVersion": "9.22.1",
+      "database": "milk_development",
+      "warnings": [],
+      "timestamp": "2023-09-13T14:58:43.772681",
+      "operation": "migrate",
+      "exception": null,
+      "licenseFailed": false
     }
   ]
 }
